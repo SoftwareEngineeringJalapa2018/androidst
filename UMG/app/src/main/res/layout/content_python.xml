@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1d9fc"
+    >
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.60">
+
+        <TextView
+            android:id="@+id/tv"
+            android:scrollHorizontally="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/colorPrimary"
+
+            android:layout_margin="15dp"
+            android:fontFamily="sans-serif"
+            android:textSize="18sp"
+
+            />
+    </ScrollView>
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+

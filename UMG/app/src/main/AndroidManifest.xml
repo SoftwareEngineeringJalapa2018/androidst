@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abyte.umg">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/umg"
+
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/umg"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Csharp"
+            android:label="@string/title_activity_csharp"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Java"
+            android:label="@string/title_activity_java"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Go"
+            android:label="@string/title_activity_go"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Php"
+            android:label="@string/title_activity_php"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nodejs"
+            android:label="@string/title_activity_nodejs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Python"
+            android:label="@string/title_activity_python"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

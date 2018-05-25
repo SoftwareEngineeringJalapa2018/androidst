@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/csharp"
+            android:icon="@drawable/csharp"
+            android:title="C#" />
+        <item
+            android:id="@+id/java"
+            android:icon="@drawable/java"
+            android:title="JAVA" />
+        <item
+            android:id="@+id/go"
+            android:icon="@drawable/go"
+            android:title="GO" />
+        <item
+            android:id="@+id/php"
+            android:icon="@drawable/php"
+            android:title="PHP" />
+        <item
+            android:id="@+id/nodejs"
+            android:icon="@drawable/node"
+            android:title="NODE JS" />
+        <item
+            android:id="@+id/pyton"
+            android:icon="@drawable/piton"
+            android:title="PYTHON" />
+
+    </group>
+    <!--  regalo del dia https://icons8.com/icon/set/hola/all de aqui saque los icnonos-->
+    <!--  http://webresizer.com/resizer/-->
+
+    <item android:title="INGENIERIA DEL SOFTWARE">
+        <menu>
+            <item
+                android:id="@+id/manual"
+                android:icon="@drawable/manul"
+                android:title="MANUAL" />
+            <item
+                android:id="@+id/contacto"
+                android:icon="@drawable/contac"
+                android:title="CONTACTANOS" />
+        </menu>
+    </item>
+
+</menu>
